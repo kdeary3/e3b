@@ -1,9 +1,9 @@
 body {background-color: lightgrey;font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";}
 /* The pages are built first for mobile devices (<600px width screens) and changes as screens increase below */
 h1 {text-align: center;}
-h2 {text-align: left;
+h2 {text-align: center;
     margin: auto;
-    width: 60%;
+    width: 80%;
     padding: 10px;}
 h3 {text-align: left;
     margin: auto;
@@ -21,22 +21,20 @@ p {text-align: left;
 /* Lists */
 ol {text-align: left;
     margin: auto;
-    width: 95%;
-    padding: 20px;}
+    width: 80%;
+    padding: 10px;}
 ul {text-align: left;
     margin: auto;
     width: 90%;
     padding: 20px;}
 .ol2 {text-align: left;
     margin: auto;
-    width: 90%;
+    width: 95%;
     padding: 20px;}
 .ul2 {text-align: left;
     margin: auto;
-    width: 90%;
+    width: 95%;
     padding: 20px;}
-
-
 
 div {text-align: center;}
 img {
@@ -76,7 +74,7 @@ button {
 .button2 {
     background-color: #6e99ef;
     width:90%;
-    height: 150px;
+    height: 100px;
     border-spacing: 3%;
     margin: 3% 5% 3%;
     white-space: normal;
@@ -154,7 +152,6 @@ button:active {
         width: 65%;
         padding: 10px;}
 
-
     iframe{
         height: 40vh;
         width: 70%;
@@ -211,7 +208,7 @@ button:active {
 
 .progress-bar {
   height: 4px;
-  background: #000;
+  background: #6e99ef;
   width: 0%;
 }
 
