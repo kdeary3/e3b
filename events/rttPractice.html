@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <link rel="stylesheet" href="/styles.css">
+    <script type="text/javascript" src="https://livejs.com/live.js"></script>
+    <meta charset="UTF-8">
+    <title>Ranger School App</title>
+</head>
+
+<body>
+    <center>
+    <h1>Practice RTTs</h1>
+    
+    <!-- M249 -->
+    <a href="rttEvents/m249/m249.html">
+    <button type="button">M249</button>
+    </a><br>
+
+    <!-- M240B -->
+    <a href="rttEvents/m240b/m240b.html">
+    <button type="button">M240B</button>
+    </a><br>
+
+    <!-- Claymore -->
+    <a href="rttEvents/claymore/claymore.html">
+    <button type="button">Claymore Mine (M18A1)</button>
+    </a><br>
+
+    <!-- ASIP -->
+    <a href="rttEvents/asip/asip.html">
+    <button type="button">Communicate by ASIP</button>
+    </a><br>
+
+    <!-- MBITR -->
+    <a href="rttEvents/mbitr/mbitr.html">
+    <button type="button">Communicate by MBITR</button>
+    </a>
+    </center>
+<br>
+
+
+<div>
+    <button id="button" type="button"
+            onclick="alert('Button was clicked!');">My Button</button>
+  
+    <br /><br />
+    <button onclick="toggle();">Toggle hidden</button>
+  </div>
+  
+  <script>
+    let toggle = () => {
+  
+      let element = document.getElementById("button");
+      let hidden = element.getAttribute("hidden");
+  
+      if (hidden) {
+         element.removeAttribute("hidden");
+      } else {
+         element.setAttribute("hidden", "hidden");
+      }
+    }
+  </script>
+  
+
+
+
+
+
+</body>
+</html>
