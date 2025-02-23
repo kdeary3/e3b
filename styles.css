@@ -78,8 +78,15 @@ button {
     border-spacing: 3%;
     margin: 3% 5% 3%;
     white-space: normal;
+}
 
-    
+.button3 {
+    background-color: #6e99ef;
+    width:90%;
+    height: 60px;
+    border-spacing: 3%;
+    margin: 3% 5% 3%;
+    white-space: normal;
 }
 
 
@@ -128,6 +135,7 @@ button:active {
         margin: 3% 5% 3%;
 
     }
+
     .button2 {
         background-color: #6e99ef;
         float: left;
@@ -135,8 +143,18 @@ button:active {
         border-spacing: 2%;
         margin: 3% 3% 3%;
         display: block;
-
     }
+
+    .button3 {
+        background-color: #6e99ef;
+        float: left;
+        width: 40%;
+        border-spacing: 2%;
+        margin: 3% 3% 3%;
+        display: block;
+    }
+    
+
     p {text-align: left;
         margin: auto;
         width: 70%;
@@ -175,9 +193,17 @@ button:active {
             border-spacing: 2%;
             margin: 3% 3% 3%;
             display: block;
-    
-    
         }
+
+        .button3 {
+            background-color: #6e99ef;
+            float: left;
+            width: 27%;
+            border-spacing: 2%;
+            margin: 3% 3% 3%;
+            display: block;
+        }
+
         p {text-align: left;
             margin: auto;
             width: 70%;
