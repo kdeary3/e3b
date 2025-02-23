@@ -28,5 +28,5 @@ function growShrinkLogo() {
 }
 
 function link() { 
-  document.getElementById("W1_vid").src = "https://www.youtube.com/watch?v=LkwUle0lt70&list=PL-9D6vPFr1RccXzlnSWYWPufSlyVenPyA&index=11";
+  document.getElementById("W1_vid").src = "https://www.youtube.com/embed/LkwUle0lt70&list=PL-9D6vPFr1RccXzlnSWYWPufSlyVenPyA&index=11";
 }
